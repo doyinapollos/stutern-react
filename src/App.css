@@ -1,4 +1,139 @@
 .App {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: darkgray;
+}
+
+.header {
+    width: 100%;
+    height: 80px;
+    background-color: darkorange;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo--div {
+    display: flex;
+    width: 80%;
+}
+
+.stutern--logo {
+    width: 120px;
+    height: 80%;
+    padding: 10px;
+}
+
+.meme--generator {
+    margin-top: 20px;
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+h3 {
+    width: 20%;
+    margin-right: 0px;
+}
+
+.api--and--meme--container {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    background-color: white;
+}
+
+.api--container {
+    width: 40%;
+    height: inherit;
+    background-color: rgb(243, 220, 14);
+}
+
+.meme--container {
+    width: 60%;
+    height: inherit;
+    background-color: brown;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    width: 250px;
+    height: 30px;
+    margin-bottom: 20px;
+    margin-right: 8px;
+    border-radius: 5px;
+    text-indent: 5px;
+}
+
+.get--meme--btn {
+    width: 535px;
+    height: 35px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: darkorange;
+    color: white;
+}
+
+.meme--display--div {
+    width: 400px;
+    height: 240px;
+    background-color: wheat;
+    border-radius: 5px;
+    margin-top: -50px;
+}
+
+.top--text {
+    position: relative;
+    color: rgb(44, 183, 238);
+}
+
+.bottom--text {
+    margin-top: -60px;
+    color: rgb(29, 184, 245);
+}
+
+.meme--photo {
+    width: inherit;
+    height: inherit;
+}
+
+.contacts {
+    display: flex;
+}
+
+.contact-card {
+    width: 170px;
+    height: 270px;
+    background-color: aquamarine;
+    margin: 10px;
+    font-size: 13px;
+}
+
+.pic {
+    width: inherit;
+    height: 150px;
+}
+
+.contact--container {
+    width: 800px;
+    height: 300px;
+    background-color: chartreuse;
+    display: flex;
+}
+
+.footer {
+    width: 100%;
+    height: 300px;
+    background-color: darkgreen;
+}
+
+
+/*
+.App {
   text-align: center;
 }
 
@@ -36,3 +171,4 @@
     transform: rotate(360deg);
   }
 }
+*/
